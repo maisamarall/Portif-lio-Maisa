@@ -2,7 +2,7 @@
   <div>
     <section id="hero" class="bg-gray-100 text-gray-900 min-h-screen flex items-center justify-center pt-24 pb-12">
       <div class="container mx-auto text-center px-4">
-        <img src="https://via.placeholder.com/150/0000FF/FFFFFF?text=Sua+Foto" alt="Sua Foto" class="rounded-full w-40 h-40 mx-auto mb-6 border-4 border-gray-300 shadow-lg">
+        <img src="../assets/logo.jpeg" alt="Sua Foto" class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-purple-300 shadow-lg object-cover"> 
         <h1 class="text-5xl md:text-6xl font-extrabold leading-tight mb-4">
           Olá, eu sou a <span class="text-purple-900">Maisa Amaral</span>!
         </h1>

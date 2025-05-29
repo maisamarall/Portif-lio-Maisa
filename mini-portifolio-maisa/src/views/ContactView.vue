@@ -79,6 +79,9 @@
           <a href="https://github.com/maisamarall" target="_blank" class="hover:text-purple-900 transition duration-300">
             <img src="https://img.icons8.com/ios-filled/50/000000/github.png" alt="GitHub" class="w-8 h-8">
           </a>
+          <a href="https://instagram.com/maisamarall" target="_blank" class="hover:text-purple-900 transition duration-300">
+            <img src="https://img.icons8.com/ios-filled/50/000000/instagram.png" alt="GitHub" class="w-8 h-8">
+          </a>
           </div>
       </div>
     </div>

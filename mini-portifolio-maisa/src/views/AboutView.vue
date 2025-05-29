@@ -5,7 +5,7 @@
 
       <section class="bg-white rounded-lg shadow-xl p-8 mb-12 flex flex-col md:flex-row items-center md:items-start gap-8">
         <div class="md:w-1/3 flex-shrink-0">
-          <img src="https://via.placeholder.com/250/0000FF/FFFFFF?text=Sua+Foto" alt="Maisa Amaral" class="rounded-full w-48 h-48 mx-auto md:mx-0 border-4 border-purple-300 shadow-lg object-cover">
+          <img src="../assets/logo.jpeg" alt="MINHA IMAGEM" class="rounded-full w-48 h-48 mx-auto md:mx-0 border-4 border-purple-300 shadow-lg object-cover">
         </div>
         <div class="md:w-2/3 text-center md:text-left">
           <h2 class="text-3xl font-bold text-purple-900 mb-4">Olá! Eu sou a Maisa.</h2>
