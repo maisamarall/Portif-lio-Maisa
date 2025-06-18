@@ -6,6 +6,7 @@
       </router-link>
 
       <div class="space-x-8 hidden md:flex">
+        <router-link to="/" class="text-gray-600 hover:text-purple-900 transition duration-300">Inicio</router-link>
         <router-link to="/about" class="text-gray-600 hover:text-purple-900 transition duration-300">Sobre</router-link>
         <router-link to="/projetos" class="text-gray-600 hover:text-purple-900 transition duration-300">Projetos</router-link>
         <router-link to="/contact" class="text-gray-600 hover:text-purple-900 transition duration-300">Contato</router-link>

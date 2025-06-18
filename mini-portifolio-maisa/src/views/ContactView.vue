@@ -1,12 +1,12 @@
 <template>
-  <div class="py-16 bg-gray-100 min-h-screen">
-    <div class="container mx-auto px-4 max-w-3xl"> <h1 class="text-4xl font-extrabold text-center text-gray-800 mb-6">Entre em Contato</h1>
+  <div class="py-20 bg-gray-100 min-h-screen">
+    <div class="container mx-auto px-4 max-w-3xl "> <h1 class="text-4xl font-bold text-center mb-5 text-purple-900">Entre em Contato</h1>
       <p class="text-xl text-center text-gray-600 mb-12">
         Estou sempre aberta a novas oportunidades, projetos interessantes e conexões.
       </p>
 
       <div class="bg-white rounded-lg shadow-xl p-8 mb-12">
-        <h2 class="text-3xl font-bold text-gray-800 mb-6 text-center">Envie-me uma Mensagem</h2>
+        <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">Envie-me uma Mensagem</h2>
 
         <form action="#" method="POST" class="space-y-6">
           <div>

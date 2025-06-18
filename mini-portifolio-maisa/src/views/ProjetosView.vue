@@ -72,7 +72,7 @@
       <section class="py-12 bg-white rounded-lg shadow-lg">
         <h3 class="text-3xl font-bold text-center mb-8 text-gray-800">Tecnologias:</h3>
         <p class="text-center text-gray-600 mb-10 max-w-2xl mx-auto">
-          Um das principais tecnologias que utilizo no momento.
+          Uma das principais tecnologias que utilizo no momento.
         </p>
         <div class="flex flex-wrap justify-center gap-6">
           <div class="flex flex-col items-center p-4 bg-gray-50 rounded-lg shadow-sm w-32 h-32 justify-center">

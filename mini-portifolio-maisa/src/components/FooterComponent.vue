@@ -3,7 +3,7 @@
     <div class="container mx-auto px-4 max-w-5xl text-center">
       <div class="flex flex-col md:flex-row justify-between items-center">
         <p class="text-sm mb-4 md:mb-0">
-          &copy; {{ currentYear }} Maisa Amaral. Todos os direitos reservados.
+          &copy; {{ currentYear }}Desenvolvido por Maisa Amaral. Todos os direitos reservados.
         </p>
 
         <p class="text-sm">
