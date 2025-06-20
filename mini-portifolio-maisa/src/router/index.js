@@ -23,11 +23,11 @@ const router = createRouter({
       component: ContactView,
     },
     {
-    path: '/projetos',  
-    name: 'projetos',
-    component: ProjetosView,
-  },
+      path: '/projetos',
+      name: 'projetos',
+      component: ProjetosView,
+    },
   ],
 })
 
-export default router
+export default router // APENAS EXPORTA O ROUTER

@@ -9,16 +9,14 @@ onMounted(() => {
 </script>
 
 <template>
-  <div id="app" class="min-h-screen bg-gray-100">
     <header>
-      <NavComponent /> </header>
+      <NavComponent />
+    </header>
 
-    <main class="flex-1 container mx-auto px-4 py-6">
-      <router-view />
+    <main class="flex-1 mt-15"> <router-view />
     </main>
 
     <footer>
       <FooterComponent />
     </footer>
-  </div>
 </template>
