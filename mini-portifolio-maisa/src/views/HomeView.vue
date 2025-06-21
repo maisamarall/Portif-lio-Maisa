@@ -1,7 +1,7 @@
 <template>
   <div>
-    <section id="hero" class="bg-gray-100 text-gray-900 min-h-screen flex items-center justify-center pt-24 pb-12
-                              dark:bg-gray-950 dark:text-gray-100 transition-colors duration-500">
+    <section id="hero" class="bg-gray-100 text-gray-900  min-h-screen flex items-center justify-center pt-24 pb-12
+                              dark:bg-gray-900 dark:text-gray-100 transition-colors duration-500">
       <div class="container mx-auto text-center px-4">
         <img src="../assets/logoo.jpeg" alt="Sua Foto"
           class="rounded-full w-48 h-48 mx-auto mb-6 border-4 border-purple-300 shadow-lg object-cover">
@@ -31,7 +31,7 @@ export default {
     // A cor dentro do span precisa ser ajustada também.
     // Usaremos uma cor que funcione bem em ambos os modos ou manipularemos com JS.
     // Para simplificar e fazer com que o dark mode do Tailwind funcione, vamos modificar o HTML que é injetado.
-    const lightModeText = 'Olá, eu sou a <span class="text-purple-900">Maisa Amaral</span>';
+    const lightModeText = 'Olá, eu sou a <span class="text-purple-400">Maisa Amaral</span>';
     const darkModeText = 'Olá, eu sou a <span class=" hover:text-purple-300">Maisa Amaral</span>'; // Roxo mais claro para o dark mode
 
     let index = 0; // Começa do zero para o typing effect

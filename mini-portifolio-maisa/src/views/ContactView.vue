@@ -1,13 +1,13 @@
 <template>
-  <div class="py-20 bg-gray-100 min-h-screen dark:bg-gray-950 transition-colors duration-500">
+  <div class="py-20 pt-32 bg-gray-100 min-h-screen dark:bg-gray-900 transition-colors duration-500">
     <div class="container mx-auto px-4 max-w-3xl ">
       <h1 class="text-4xl font-bold text-center mb-5 text-purple-900 dark:text-purple-400">Entre em Contato</h1>
       <p class="text-xl text-center text-gray-600 mb-12 dark:text-gray-300">
-        Estou sempre aberta a novas oportunidades, projetos interessantes e conexões.
+        Tem um projeto em mente? Entre em contato e vamos criar algo incrível juntos!
       </p>
 
       <div class="bg-white rounded-lg shadow-xl p-8 mb-12
-                  dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
+                   dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
         <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center dark:text-white">Envie-me uma Mensagem</h2>
 
         <form action="https://formspree.io/f/xpwrlbpv" method="POST" class="space-y-6">
@@ -52,7 +52,7 @@
         <h2 class="text-3xl font-bold text-gray-800 mb-6 dark:text-white">Ou mande no meu email</h2>
         <div class="flex flex-col md:flex-row justify-center items-center gap-6 mb-8">
           <a href="mailto:maisaamaral220@gmail.com" class="text-gray-700 hover:text-purple-900 transition duration-300 flex items-center text-lg
-                   dark:text-gray-300 dark:hover:text-purple-400">
+                        dark:text-gray-300 dark:hover:text-purple-400">
             <svg class="w-6 h-6 mr-2 dark:text-gray-300" fill="currentColor" viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg">
               <path
@@ -64,15 +64,15 @@
 
         <div class="flex justify-center items-center gap-8 text-gray-700">
           <a href="https://www.linkedin.com/in/maisaamaral" target="_blank" class="text-gray-700 hover:text-purple-600 transition-colors duration-300
-                   dark:text-gray-400 dark:hover:text-purple-300">
+                        dark:text-gray-400 dark:hover:text-purple-300">
             <i class="fab fa-linkedin text-3xl"></i>
           </a>
           <a href="https://github.com/maisamarall" target="_blank" class="text-gray-700 hover:text-purple-600 transition-colors duration-300
-                   dark:text-gray-400 dark:hover:text-purple-300">
+                        dark:text-gray-400 dark:hover:text-purple-300">
             <i class="fab fa-github text-3xl"></i>
           </a>
           <a href="https://instagram.com/maisamarall" target="_blank" class="text-gray-700 hover:text-purple-600 transition-colors duration-300
-                   dark:text-gray-400 dark:hover:text-purple-300">
+                        dark:text-gray-400 dark:hover:text-purple-300">
             <i class="fab fa-instagram text-3xl"></i>
           </a>
         </div>

@@ -1,10 +1,9 @@
 <template>
-  <div class="py-16 bg-gray-100 min-h-screen dark:bg-gray-950 transition-colors duration-500">
-    <div class="container mx-auto px-5 max-w-5xl">
+  <div class="py-16 pt-32 bg-gray-100 min-h-screen dark:bg-gray-900 transition-colors duration-500"> <div class="container mx-auto px-5 max-w-5xl">
       <h1 class="text-3xl font-bold text-center mb-12 text-purple-900 dark:text-purple-400">Sobre Mim</h1>
 
       <section class="bg-white rounded-lg shadow-xl p-8 mb-12 flex flex-col md:flex-row items-center md:items-start gap-8
-                        dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
+                         dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
         <div class="md:w-1/3 flex-shrink-0">
           <img src="../assets/logoo.jpeg" alt="MINHA IMAGEM"
             class="rounded-full w-25 h-25 mx-auto md:mx-0 border-4 border-purple-300 shadow-lg object-cover">
@@ -13,7 +12,7 @@
           <h2 class="text-3xl font-bold text-purple-900 mb-4 dark:text-purple-400">Olá! Eu sou a Maisa.</h2>
 
           <p class="text-lg text-gray-700 leading-relaxed mb-4 dark:text-gray-300">
-            Sou uma Estudante de ADS e Desenvolvedora Front-end e Designer UX/UI, atualmente com 19 anos adoro criar
+            Sou uma Estudante de ADS e Desenvolvedora Web e Designer UX|UI, atualmente com 19 anos adoro criar
             interfaces intuitivas, belas e funcionais.
             Minha jornada no mundo web começou com a fascinação por como as experiências digitais moldam o dia a dia das
             pessoas, e desde então,
@@ -38,52 +37,38 @@
 
       <div class="flex flex-col md:flex-row gap-8 mb-12">
         <section class="bg-white rounded-lg shadow-xl p-8 md:w-1/2
-                          dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
+                         dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
           <h2 class="text-3xl font-bold text-gray-800 text-center mb-6 dark:text-white">Minhas Habilidades</h2>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
               <h3 class="text-2xl font-semibold text-purple-800 mb-4 dark:text-purple-400"> Front-end</h3>
               <div class="flex flex-wrap gap-2">
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Vue.js</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">JavaScript (ES6+)</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">HTML5 & CSS3</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Tailwind CSS</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Python</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Git & GitHub</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Bootstrap</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Consumo de APIs</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Vue.js</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">JavaScript (ES6+)</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">HTML E CSS</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Tailwind CSS</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Git & GitHub</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Python</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Bootstrap</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Consumo de APIs</span>
               </div>
             </div>
             <div>
               <h3 class="text-2xl font-semibold text-purple-800 mb-10 dark:text-purple-400">Design UX/UI</h3>
               <div class="flex flex-wrap gap-2">
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Figma</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Pesquisa de Usuário</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Wireframing & Prototipagem</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Testes de Usabilidade</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Jornadas do Usuário</span>
-                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full
-                               dark:bg-purple-700 dark:text-purple-100">Acessibilidade</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Figma</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Pesquisa de Usuario</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Wireframing & Prototipagem</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Testes de Usabilidade</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Jornadas do Usuário</span>
+                <span class="bg-purple-100 text-purple-800 text-sm font-medium px-4 py-1 rounded-full dark:bg-purple-700 dark:text-purple-100 transform transition-transform duration-300 hover:scale-105">Acessibilidade</span>
               </div>
             </div>
           </div>
         </section>
 
         <section class="bg-white rounded-lg shadow-xl p-8 md:w-1/2 text-center
-                          dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
+                         dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
           <h2 class="text-3xl font-bold text-gray-800 mb-6 dark:text-white">Minha Abordagem</h2>
           <div class="space-y-4">
             <div class="p-4">
@@ -106,7 +91,7 @@
       </div>
 
       <section class="bg-white rounded-lg shadow-xl p-8 mb-12
-                        dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
+                         dark:bg-gray-800 dark:shadow-purple-500/20 transition-colors duration-500">
         <h2 class="text-3xl font-bold text-gray-800 text-center mb-6 dark:text-white">Minha Formação</h2>
         <div class="space-y-6">
           <div>
@@ -146,7 +131,7 @@
 
       <div class="text-center mt-12">
         <router-link to="/contact" class="bg-purple-900 hover:bg-purple-700 text-white px-8 py-4 rounded-full text-lg font-semibold shadow-lg transition duration-300 transform hover:scale-105
-                                        dark:bg-purple-700 dark:hover:bg-purple-600 dark:text-white">
+                                     dark:bg-purple-700 dark:hover:bg-purple-600 dark:text-white">
           Entre em Contato
         </router-link>
       </div>

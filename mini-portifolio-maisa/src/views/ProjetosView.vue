@@ -1,5 +1,5 @@
 <template>
-  <section class="py-12 md:py-20   bg-gray-950 transition-colors duration-500">
+  <section class="py-20 pt-32 bg-gray-900 transition-colors duration-500">
     <div class="container mx-auto px-5">
       <h2 class="text-4xl font-bold text-center mb-10 text-purple-900 dark:text-purple-400">Meus Projetos</h2>
 
